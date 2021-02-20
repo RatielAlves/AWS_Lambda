@@ -11,7 +11,7 @@ export.handler = event => {
  	body JSON.stringify({
  		Sender: 'lambda',
  		Receivers: 'PhoneNumber'	//Insert the Phone Number from receiver
- 		Content: 'Servidor esta com capacidade limitada'		//Message sent to user
+ 		Content: 'Servidor esta com capacidade limitada'  //Message sent to user
  	})
  })
 }
